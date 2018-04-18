@@ -54,8 +54,6 @@ namespace shared_model {
      * limitations: it requires to have write access for elements for some
      * internal operations.
      */
-    using SignatureSetType =
-        std::unordered_set<types::SignatureType, SignableHash>;
   }  // namespace interface
 }  // namespace shared_model
 
